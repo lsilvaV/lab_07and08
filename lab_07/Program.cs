@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//using lab_07.LabCalculos.Lab07;
-using lab_07.LabCalculos.Lab08;
+using lab_07.LabCalculos;
 
 namespace lab_07
 {
@@ -19,7 +18,7 @@ namespace lab_07
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TelaPrincipal());
+            Application.Run(new MenuPrincipal());
         }
     }
 }
